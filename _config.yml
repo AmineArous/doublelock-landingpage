@@ -1,0 +1,114 @@
+#page title
+page_title                                : "Double Lock: Escape Game"
+
+# App Info
+ios_app_id                                : 6821069166
+
+appstore_link                             : https://apps.apple.com/app/id6821069166
+playstore_link                            :
+presskit_download_link                    :
+
+app_icon                                  : assets/appicon.png
+app_name                                  : Double Lock
+app_price                                 : Free
+app_description                           : "A film-noir escape game in 1930s style. Victor Lenoir, the greatest art forger of his time, locks you in his traps from Paris to the Adriatic. Escape each one and have him arrested."
+
+enable_smart_app_banner                   : true
+
+
+
+# Information About Yourself
+your_name                                 : SixtyEdge
+your_link                                 : 
+your_city                                 : Paris
+email_address                             : sixtyedge@gmail.com
+facebook_username                         :
+instagram_username                        :
+twitter_username                          :
+github_username                           :
+youtube_username                          :
+
+
+
+# Feature List
+features                                  :
+
+  - title                                 : Four Handcrafted Scenes
+    description                           : Victor's study in Paris, a night train to Venice, a secret studio on a canal and a yacht on the Adriatic.
+    fontawesome_icon_name                 : map-marked-alt
+
+  - title                                 : A Film-Noir Story
+    description                           : An art forger, an investigative journalist and a chase across Europe, in 1930s style.
+    fontawesome_icon_name                 : film
+
+  - title                                 : Puzzles Hidden in Every Object
+    description                           : Safes, a chess problem, mirror writing, a magic lantern, a lighthouse in the night and more.
+    fontawesome_icon_name                 : puzzle-piece
+
+  - title                                 : A New Artist Each Time
+    description                           : In Venice, every game draws one of eight painters for you to unmask.
+    fontawesome_icon_name                 : palette
+
+  - title                                 : One Hint at a Time
+    description                           : A hint matched to where you are in the scene. Never the answer.
+    fontawesome_icon_name                 : lightbulb
+
+  - title                                 : First Scene Free, No Data Collected
+    description                           : Unlock the other three with a single purchase. English and French, no account, no ads, no tracking.
+    fontawesome_icon_name                 : unlock
+
+
+
+# Theme Settings
+topbar_color                              : "#121212"
+topbar_transparency                       : 0.95
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png
+cover_overlay_color                       : "#121212"
+cover_overlay_transparency                : 0.85
+
+device_color                              : black
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#B8892E"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#F6D892"
+app_description_color                     : "#e2e8f0"
+
+feature_title_color                       : "#121212"
+feature_text_color                        : "#64748b"
+
+feature_icons_foreground_color            : "#B8892E"
+feature_icons_background_color            : "#F6EBD0"
+
+social_icons_foreground_color             : "#64748b"
+social_icons_background_color             : "#f1f5f9"
+
+footer_text_color                         : "#94a3b8"
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
