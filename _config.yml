@@ -53,8 +53,8 @@ features                                  :
     description                           : A hint matched to where you are in the scene. Never the answer.
     fontawesome_icon_name                 : lightbulb
 
-  - title                                 : First Scene Free, No Data Collected
-    description                           : Unlock the other three with a single purchase. English and French, no account, no ads, no tracking.
+  - title                                 : First Scene Free
+    description                           : Unlock the other three with a single purchase. English and French, no account, no ads.
     fontawesome_icon_name                 : unlock
 
 

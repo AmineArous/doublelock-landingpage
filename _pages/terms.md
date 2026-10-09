@@ -26,6 +26,7 @@ Double Lock is an escape game in four scenes. The App uses:
 - Local device storage to save your progress and settings  
 - The microphone, only for one puzzle and only if you allow it (see the [Privacy Policy](../privacypolicy/))  
 - The App Store (StoreKit) for the optional full game purchase  
+- Google Analytics for Firebase, for anonymous usage statistics (see the [Privacy Policy](../privacypolicy/))  
 
 <br>
 
