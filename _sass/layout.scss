@@ -685,3 +685,45 @@ footer {
 .hidden {
 	display: none;
 }
+
+// Double Lock is played in landscape: a screen of the game, in place of a phone held upright.
+
+.iphonePreview {
+	background-image: none;
+	margin-top: 140px;
+}
+
+.iphoneScreen {
+	width: 100%;
+	-webkit-clip-path: none;
+	clip-path: none;
+	margin: 0px;
+	border-radius: 18px;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+}
+
+@media only screen and (max-width: 1070px) {
+
+	.iphoneScreen {
+		width: 100%;
+		margin: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+	.iphonePreview {
+		margin-top: 47px;
+		padding-bottom: 75px;
+	}
+
+	.iphoneScreen {
+		width: 90%;
+		height: auto;
+		-webkit-clip-path: none;
+		clip-path: none;
+		margin: 0px;
+	}
+
+}
